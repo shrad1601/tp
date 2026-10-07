@@ -153,3 +153,60 @@
 .tab-pane > .tab-header-area > .headers-region > .tab .focus-indicator {
     -fx-border-color: transparent;
 }
+
+/* Colour scheme from the mockup: dark grey background, near-black bordered boxes. */
+
+.background,
+.stack-pane,
+.menu-bar {
+    -fx-background-color: #2b2b2b;
+}
+
+.pane-with-border {
+    -fx-background-color: #2b2b2b;
+    -fx-border-color: #1f1f1f;
+}
+
+.menu-bar .label {
+    -fx-font-size: 12px;
+}
+
+#commandTextField {
+    -fx-background-color: #1e1e1e;
+    -fx-background-radius: 3;
+    -fx-border-color: #5a5a5a;
+    -fx-border-radius: 3;
+    -fx-font-family: "Menlo", "Consolas", monospace;
+    -fx-font-size: 12.5px;
+}
+
+#resultDisplay .content {
+    -fx-background-color: #1e1e1e;
+    -fx-background-radius: 3;
+    -fx-border-color: #3c3c3c;
+    -fx-border-radius: 3;
+}
+
+.result-display {
+    -fx-font-family: "Menlo", "Consolas", monospace;
+    -fx-font-size: 12px;
+    -fx-text-fill: #e6e6e6;
+}
+
+.status-bar {
+    -fx-background-color: #1e1e1e;
+}
+
+.status-bar .label {
+    -fx-font-size: 11px;
+    -fx-text-fill: #aaaaaa;
+    -fx-pref-height: 24px;
+}
+
+.list-view {
+    -fx-background-color: #2b2b2b;
+}
+
+.list-cell:empty {
+    -fx-background: #2b2b2b;
+}
